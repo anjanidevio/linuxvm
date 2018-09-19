@@ -3,10 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "type": "string"
+            "type": "string",
+            "defaultvalue": "adminuser" 
         },
         "adminPassword": {
             "type": "securestring"
+             "defaultvalue": "password@1234" 
         }
     },
     "variables": {
